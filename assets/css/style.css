@@ -5,7 +5,6 @@ header {
 	font-weight: bold;
 	float: left;
 	color: #ffffff;
-	padding-top: 10px;
 	height: 100%;
 	width: 280px;
 	margin-left: 120px;
@@ -87,9 +86,11 @@ footer {
 input,textarea {
 	width: 100%;
 	padding: 10px 10px 10px 10px;
+	resize: vertical;
     border-color: #dddddd;
     border-style: solid;
     border-width: medium;
+    box-sizing: border-box;
 }
 
 .border {
@@ -121,7 +122,8 @@ input,textarea {
 .top_container {
 	border-bottom: 2px solid #cccccc;
 	background-color: #ffffff;
-	height: 45px;
+	height: 55px;
+	vertical-align: baseline;
 }
 
 .main_container {
